@@ -21,5 +21,6 @@ public class JokesController {
     public String showJoke(Model model) {
         model.addAttribute("joke", jokesService.getJoke());
         return "index";
+        // tells app to display joke to index
     }
 }
